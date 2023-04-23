@@ -1,0 +1,17 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "illuminate/support": "^4.2",
+        "symfony/var-dumper": "^6.2",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpeedrunApi\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "mockery/mockery": "^1.5"
+    }
+}
